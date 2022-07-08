@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  subtitle:
+    build:
+      context: ../
+      dockerfile: docker/subtitle/Dockerfile
+    volumes:
+      - ../project:/root/project
+    stdin_open: true
+    tty: true
+    # command: /bin/sh -c "/root/start.sh 100 thumbnails 1"
+    working_dir: /root/project
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 4096M

@@ -1,0 +1,20 @@
+# MAC
+.DS_Store
+
+# 程式碼產出
+__pycache__
+output_list
+.DS_Store
+
+# 影片格式
+*.mp4
+*.mkv
+*.mkv
+*.avi
+*.mov
+
+
+# 字幕格式
+*.vtt
+*.src
+*.txt

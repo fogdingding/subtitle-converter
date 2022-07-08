@@ -1,0 +1,34 @@
+{
+    "root": {
+        "url": {
+            "csubtitle": {
+                "home": "",
+                "text": "",
+                "upload_file": "",
+                "rstatus_file": "",
+                "download_file": ""
+            }
+        },
+        "config": {
+            "csubtitle": {
+                "file_format": ["vtt"],
+                "file_path": "/root/project/src/subtitles"
+            },
+            "ipvanish": {
+                "accounts": "",
+                "password": "",
+                "port": 1080,
+                "city": []
+            },
+            "ffmpeg": {
+                "file_path": "/root/project/src/videos",
+                "is_quiet": true,
+                "segment_time": "180",
+                "segment_filename_list": "output_list"
+            },
+            "subtitle": {
+                "encoding": "utf_8"
+            }
+        }
+    }
+}
